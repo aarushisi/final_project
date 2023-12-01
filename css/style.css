@@ -98,10 +98,13 @@ html {
 .navbar a:hover {
         border-color: rgba(162, 0, 255, 0.3); /* Add this line to change the border color on hover */
         padding: 8px 13px;
-        background-color: rgba(210, 132, 255, 0.3);
+        background-color: rgba(162, 0, 255, 0.3);
 }
 
 .navbar a {
+    border-color: rgba(162, 0, 255, 0.3); /* Add this line to change the border color on hover */
+    padding: 8px 13px;
+    background-color: rgba(210, 132, 255, 0.3);
     font-size: 15px;
     color: white;
     text-decoration: none;
@@ -260,11 +263,12 @@ section.home {
     overflow: hidden;
     transition: .5s;
     margin-top: 1rem;
+    background: rgba(210, 132, 255, 0.381);
 }
 
 
 .btn-box .btn:nth-child(2) {
-    background: transparent;
+    background: rgba(210, 132, 255, 0.381);
     color: white;
 }
 
@@ -359,7 +363,7 @@ form .input-box {
 .field .item {
     width:100%;
     padding: 18px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.081);
     border: .15rem solid white;
     outline: none;
     border-radius: .6rem;
@@ -373,7 +377,7 @@ form .input-box {
 }
 
 .field .item::placeholder {
-    color: rgba(220, 220, 220, 0.819);
+    color: white;
 }
 
 .field .error-txt {
